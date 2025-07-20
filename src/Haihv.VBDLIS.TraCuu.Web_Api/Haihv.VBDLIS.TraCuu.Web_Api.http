@@ -1,0 +1,6 @@
+@Haihv.VBDLIS.TraCuu.Web_Api_HostAddress = http://localhost:5085
+
+GET {{Haihv.VBDLIS.TraCuu.Web_Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
