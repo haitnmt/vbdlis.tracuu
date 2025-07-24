@@ -8,7 +8,7 @@ var webApi = builder.AddProject<Haihv_VBDLIS_TraCuu_Web_Api>("WebApi")
     .WithReference(cache)
     .WaitFor(cache);
 
-builder.AddProject<Haihv_VBDLIS_TraCuu_Web_App>("WebApp")
+builder.AddProject<Haihv_VBDLIS_TraCuu_App_Web>("WebApp")
     .WithReference(webApi)
     .WaitFor(webApi);
 

@@ -1,14 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36310.24 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TraCuu.AppHost", "TraCuu.AppHost\TraCuu.AppHost.csproj", "{BC91314D-65F5-4107-8599-51BE4F004DDD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TraCuu.ServiceDefaults", "TraCuu.ServiceDefaults\TraCuu.ServiceDefaults.csproj", "{D8A770BE-D0E6-4D95-BABE-3A05B5FB1D71}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haihv.VBDLIS.TraCuu.Web_Api", "Haihv.VBDLIS.TraCuu.Web_Api\Haihv.VBDLIS.TraCuu.Web_Api.csproj", "{89BF4E25-920D-4CB3-BFF6-A442350B9C35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haihv.VBDLIS.TraCuu.Web_App", "Haihv.VBDLIS.TraCuu.Web_App\Haihv.VBDLIS.TraCuu.Web_App\Haihv.VBDLIS.TraCuu.Web_App.csproj", "{D09BDA64-2CC5-4290-9FE7-10732A748F08}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haihv.VBDLIS.TraCuu.App", "Haihv.VBDLIS.TraCuu.App\Haihv.VBDLIS.TraCuu.App\Haihv.VBDLIS.TraCuu.App.csproj", "{784728A2-A2B6-4626-AF81-774172AC8030}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haihv.VBDLIS.TraCuu.Web_App.Client", "Haihv.VBDLIS.TraCuu.Web_App\Haihv.VBDLIS.TraCuu.Web_App.Client\Haihv.VBDLIS.TraCuu.Web_App.Client.csproj", "{9E76AEF2-6D11-45B5-97AF-F76EAE14BCF0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haihv.VBDLIS.TraCuu.App.Shared", "Haihv.VBDLIS.TraCuu.App\Haihv.VBDLIS.TraCuu.App.Shared\Haihv.VBDLIS.TraCuu.App.Shared.csproj", "{27213733-D26D-4265-97D4-0EC6D5B935A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haihv.VBDLIS.TraCuu.App.Web", "Haihv.VBDLIS.TraCuu.App\Haihv.VBDLIS.TraCuu.App.Web\Haihv.VBDLIS.TraCuu.App.Web.csproj", "{2E503868-D600-4A9C-BB8C-857C7C47F355}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haihv.VBDLIS.TraCuu.App.Web.Client", "Haihv.VBDLIS.TraCuu.App\Haihv.VBDLIS.TraCuu.App.Web.Client\Haihv.VBDLIS.TraCuu.App.Web.Client.csproj", "{FF6CAFA7-453A-4FA8-85AC-7385130647D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,13 +35,28 @@ Global
 		{89BF4E25-920D-4CB3-BFF6-A442350B9C35}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89BF4E25-920D-4CB3-BFF6-A442350B9C35}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89BF4E25-920D-4CB3-BFF6-A442350B9C35}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D09BDA64-2CC5-4290-9FE7-10732A748F08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D09BDA64-2CC5-4290-9FE7-10732A748F08}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D09BDA64-2CC5-4290-9FE7-10732A748F08}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D09BDA64-2CC5-4290-9FE7-10732A748F08}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9E76AEF2-6D11-45B5-97AF-F76EAE14BCF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9E76AEF2-6D11-45B5-97AF-F76EAE14BCF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9E76AEF2-6D11-45B5-97AF-F76EAE14BCF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9E76AEF2-6D11-45B5-97AF-F76EAE14BCF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{784728A2-A2B6-4626-AF81-774172AC8030}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{784728A2-A2B6-4626-AF81-774172AC8030}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{784728A2-A2B6-4626-AF81-774172AC8030}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{784728A2-A2B6-4626-AF81-774172AC8030}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{784728A2-A2B6-4626-AF81-774172AC8030}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27213733-D26D-4265-97D4-0EC6D5B935A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27213733-D26D-4265-97D4-0EC6D5B935A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27213733-D26D-4265-97D4-0EC6D5B935A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27213733-D26D-4265-97D4-0EC6D5B935A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E503868-D600-4A9C-BB8C-857C7C47F355}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E503868-D600-4A9C-BB8C-857C7C47F355}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E503868-D600-4A9C-BB8C-857C7C47F355}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E503868-D600-4A9C-BB8C-857C7C47F355}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF6CAFA7-453A-4FA8-85AC-7385130647D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF6CAFA7-453A-4FA8-85AC-7385130647D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF6CAFA7-453A-4FA8-85AC-7385130647D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF6CAFA7-453A-4FA8-85AC-7385130647D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C46F5768-8AE1-4C4B-9D8C-9A29B0CF6E72}
 	EndGlobalSection
 EndGlobal

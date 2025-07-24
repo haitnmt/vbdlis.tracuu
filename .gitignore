@@ -413,16 +413,9 @@ FodyWeavers.xsd
 # JetBrains Rider
 .idea/
 *.sln.iml
-*.suo
-*.tmp
-*.user
-*.userprefs
-*.pidb
-*.booproj
-*.svd
-*.pdb
-*.opendb
-*.VC.db
+*.iml
+*.ipr
+*.iws
 
 # Rider specific
 **/.idea/**/workspace.xml
@@ -440,33 +433,80 @@ FodyWeavers.xsd
 **/.idea/**/dynamic.xml
 **/.idea/**/uiDesigner.xml
 
-# Windows Installer files from build outputs
-*.cab
-*.msi
-*.msix
-*.msm
-*.msp
-
-# IntelliJ based IDEs (Rider, etc.)
-.idea/
-*.iml
-*.ipr
-*.iws
-
-# Common development folders
+# VS Code
 .vscode/
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
 
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# .NET MAUI specific
+**/Platforms/**/obj/
+**/Platforms/**/bin/
+**/Platforms/**/Resources/Raw/
+**/Platforms/**/wwwroot/
+
+# MAUI - Android
+**/Platforms/Android/obj/
+**/Platforms/Android/bin/
+**/Resources/Raw/
+*.aab
+*.apk
+*.keystore
+
+# MAUI - iOS
+**/Platforms/iOS/obj/
+**/Platforms/iOS/bin/
+*.ipa
+*.mobileprovision
+*.p12
+
+# MAUI - Windows
+**/Platforms/Windows/obj/
+**/Platforms/Windows/bin/
+*.msix
+*.appx
+*.appxbundle
+*.cer
+*.pfx
+
+# MAUI - MacCatalyst
+**/Platforms/MacCatalyst/obj/
+**/Platforms/MacCatalyst/bin/
+*.pkg
+*.dmg
+
+# MAUI - Tizen
+**/Platforms/Tizen/obj/
+**/Platforms/Tizen/bin/
+*.tpk
+
+# MAUI Workload and Tools
+**/.nuget/
+**/.dotnet/
+tools/
+
+# MAUI Hot Reload
+**/obj/**/generated/
+
+# MAUI Resource Generator
+**/Resources/**/*.generated.cs
+**/Platforms/**/Resources/**/*.designer.cs
+
+# Cross-platform OS files
 # MacOS
 .DS_Store
 .DS_Store?
 ._*
 .Spotlight-V100
 .Trashes
-ehthumbs.db
 Thumbs.db
 
 # Windows
@@ -488,11 +528,63 @@ appsettings.*.json
 !appsettings.json
 !appsettings.Development.json
 
-# SQL Server LocalDB
+# Database files
 *.mdf
 *.ldf
 *.ndf
+*.db
+*.sqlite
+*.sqlite3
 App_Data/
 
 # Entity Framework
 Migrations/
+
+# MAUI Additional files
+**/*.Generated.cs
+**/*.g.cs
+**/*.g.i.cs
+Resource.designer.cs
+AndroidManifest.xml.bak
+
+# Android specific
+android_m2repository/
+dex_cache/
+com_crashlytics_export_strings.xml
+fabric.properties
+
+# iOS specific
+*.xcuserstate
+*.xcscheme
+DerivedData/
+*.hmap
+*.ipa
+xcodebuild/
+
+# Windows App Package
+*.appxupload
+Package.StoreAssociation.xml
+*.msixupload
+
+# Certificate files (be careful with these)
+*.p12
+*.mobileprovision
+*.cer
+*.crt
+*.key
+
+# Android Studio / IntelliJ
+local.properties
+gradle.properties
+proguard/
+
+# Xamarin specific (legacy, but might be present)
+*.userprefs
+*.csproj.user
+*.sln.cache
+TestResult.xml
+
+# Additional tools
+.ionide/
+.fake/
+.paket/
